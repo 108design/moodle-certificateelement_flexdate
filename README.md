@@ -44,3 +44,8 @@ Fork maintainer: Andreas Giesen <andreas@108design.com> (108design).
 
 GNU General Public License version 3 or later. See [LICENSE](LICENSE) for the
 complete license text.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
