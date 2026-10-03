@@ -50,6 +50,7 @@ in [`tool_certificate` 4.5.7](https://github.com/moodleworkplace/moodle-tool_cer
 The original element was authored by Mark Nelson; its test patterns include work
 by Daniel Neis Araujo. The adaptation and subsequent changes are copyright 2026
 Andreas Giesen.
+Fork maintainer: Andreas Giesen <andreas@108design.com> (108design).
 
 ## License
 
