@@ -15,9 +15,8 @@ The directory name must remain `flexdate`; it maps to the Moodle component `cert
 
 ## Compatibility
 
-- Moodle 4.5 LTS through Moodle 5.2 are the intended tested range.
-- Moodle 5.3 is declared as an anticipated compatibility target; final verification must wait for its release and a compatible `tool_certificate` version.
-- The initial implementation is based on the `tool_certificate` 4.5.7 date element. At that version, the upstream element exposes **Issued date** and **Expiry date** only. New upstream date sources must be reviewed and deliberately adopted when `tool_certificate` is upgraded.
+Requires Moodle 4.5 or later and a compatible Certificate manager installation.
+The plugin targets Moodle 4.5–5.2. It supports issue and expiry dates.
 
 ## Custom formats
 
@@ -31,17 +30,6 @@ Use Moodle's strftime-style directives, not `tt.mm.yyyy` notation. Common patter
 | `18. August 2026` | `%d. %B %Y` |
 
 Formats are limited to 100 characters. The plugin rejects empty formats in custom mode, HTML/control characters, and unknown percent directives. It always formats dates through Moodle's `userdate()` so the recipient's configured timezone and language are respected.
-
-## Development checks
-
-Run the PHPUnit test in a Moodle development installation:
-
-```sh
-php admin/tool/phpunit/cli/util.php --install
-vendor/bin/phpunit admin/tool/certificate/element/flexdate/tests/element_test.php
-```
-
-Before a `tool_certificate` upgrade, compare its date element with `classes/element.php` and add any newly supported date sources intentionally.
 
 ## Origin and attribution
 
