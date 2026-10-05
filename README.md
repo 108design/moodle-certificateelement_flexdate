@@ -1,26 +1,46 @@
 # Flexible date certificate element
 
-`certificateelement_flexdate` adds a **Flexible date** element to the Certificate manager (`tool_certificate`). Each element can show the issue date or expiry date in either the familiar Moodle standard format or an independent, custom strftime-style format.
+Display certificate issue or expiry dates in the format you need. Flexible date
+adds standard and custom date formats to Certificate manager, with an optional
+language choice for each element.
 
-An element can also select one of the site's installed languages for its date output. This is useful when a template needs a fixed month or weekday language, independently of the Certificate manager's current issue/site language. Leave **Date language** at **Use certificate language** to preserve the existing behaviour.
+## Screenshot
+
+[![Configure a Flexible date element with a custom date format](https://raw.githubusercontent.com/108design/moodle-certificateelement_flexdate/main/docs/screenshots/cd-flexdate.jpg)](https://raw.githubusercontent.com/108design/moodle-certificateelement_flexdate/main/docs/screenshots/cd-flexdate.jpg)
+
+## Features
+
+- Display the certificate's issue date or expiry date.
+- Choose a familiar Moodle date format or enter your own format for each element.
+- Select an installed site language for month and weekday names, or use the
+  certificate's language.
+- Use Certificate manager's normal font, size, colour, alignment and positioning
+  controls.
 
 ## Installation
 
-1. Install a compatible `tool_certificate` release.
-2. Copy this directory to `<moodle>/admin/tool/certificate/element/flexdate`.
+1. Install a compatible **Certificate manager** (`tool_certificate`) release.
+2. Install this plugin in `<moodle>/admin/tool/certificate/element/flexdate`.
+   On Moodle installations with a split web directory, use
+   `<moodle>/public/admin/tool/certificate/element/flexdate`.
 3. Visit **Site administration → Notifications** to complete installation.
-4. In a certificate template, add **Flexible date** and select the date source and format mode.
+4. Open a certificate template and add **Flexible date**.
+5. Select **Date item**, **Format mode** and, optionally, **Date language**.
+6. Save the element and preview the certificate.
 
-The directory name must remain `flexdate`; it maps to the Moodle component `certificateelement_flexdate`.
+The directory name must remain `flexdate`. This is a Certificate manager element;
+it does not require the Course certificate activity to edit a template.
 
 ## Compatibility
 
 Requires Moodle 4.5 or later and a compatible Certificate manager installation.
-The plugin targets Moodle 4.5–5.2. It supports issue and expiry dates.
+The plugin targets Moodle 4.5–5.2 and supports issue and expiry dates.
 
-## Custom formats
+## Date formats and language
 
-Use Moodle's strftime-style directives, not `tt.mm.yyyy` notation. Common patterns:
+Choose **Standard format** to use Moodle's predefined date formats. Choose
+**Custom format** to enter a strftime-style pattern, rather than `tt.mm.yyyy`
+notation. Common patterns:
 
 | Output | Pattern |
 | --- | --- |
@@ -29,7 +49,20 @@ Use Moodle's strftime-style directives, not `tt.mm.yyyy` notation. Common patter
 | `2026-08-18` | `%Y-%m-%d` |
 | `18. August 2026` | `%d. %B %Y` |
 
-Formats are limited to 100 characters. The plugin rejects empty formats in custom mode, HTML/control characters, and unknown percent directives. It always formats dates through Moodle's `userdate()` so the recipient's configured timezone and language are respected.
+Use `%%` for a literal percent sign. Formats are limited to 100 characters;
+empty custom formats, HTML, control characters and unknown percent directives
+are rejected. Dates use Moodle's timezone handling.
+
+**Date language** can select any installed site language for this element's date.
+This is useful when a template needs fixed month or weekday names. Leave it at
+**Use certificate language** to follow Certificate manager's language choice.
+The selection does not change the language of other elements.
+
+## Privacy
+
+Flexible date stores formatting settings in the certificate template. It does not
+store personal data of its own or send data to an external service. Certificate
+issues and recipient records are managed by Certificate manager.
 
 ## Origin and attribution
 
