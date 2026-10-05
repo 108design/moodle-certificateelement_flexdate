@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.2 — 2026-10-05
+
+- Declare Certificate manager (`tool_certificate`) as a required parent plugin.
+- Clarify installation, date-language behaviour and privacy documentation.
+- Add the configuration screenshot to the public README.
+- Date formatting and certificate output are unchanged.
+
 ## Licensing correction — 2026-08-24
 
 - Restored the GNU GPL v3 or later license required by the GPL-licensed origin.
