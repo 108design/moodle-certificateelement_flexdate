@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/108design/moodle-certificateelement_flexdate/main/docs/branding/logo.svg" alt="Flexible date logo" width="443" height="443">
+  <img src="https://raw.githubusercontent.com/108design/moodle-certificateelement_flexdate/main/docs/branding/logo.svg" alt="Flexible date logo" width="125" height="125">
 </p>
 
 # Flexible date certificate element
