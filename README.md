@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/108design/moodle-certificateelement_flexdate/main/docs/branding/logo.svg" alt="Flexible date logo" width="125" height="125">
+  <img src="https://raw.githubusercontent.com/108design/moodle-certificateelement_flexdate/main/docs/branding/logo.svg" alt="Flex Date for tool_certificate logo" width="125" height="125">
 </p>
 
-# Flexible date certificate element
+# Flex Date for tool_certificate
 
-Display certificate issue or expiry dates in the format you need. Flexible date
+Display certificate issue or expiry dates in the format you need. Flex Date for tool_certificate
 adds standard and custom date formats to Certificate manager, with an optional
 language choice for each element.
 
 ## Screenshot
 
-[![Configure a Flexible date element with a custom date format](https://raw.githubusercontent.com/108design/moodle-certificateelement_flexdate/main/docs/screenshots/cd-flexdate.jpg)](https://raw.githubusercontent.com/108design/moodle-certificateelement_flexdate/main/docs/screenshots/cd-flexdate.jpg)
+[![Configure a Flex Date for tool_certificate element with a custom date format](https://raw.githubusercontent.com/108design/moodle-certificateelement_flexdate/main/docs/screenshots/cd-flexdate.jpg)](https://raw.githubusercontent.com/108design/moodle-certificateelement_flexdate/main/docs/screenshots/cd-flexdate.jpg)
 
 ## Features
 
@@ -28,7 +28,7 @@ language choice for each element.
    On Moodle installations with a split web directory, use
    `<moodle>/public/admin/tool/certificate/element/flexdate`.
 3. Visit **Site administration → Notifications** to complete installation.
-4. Open a certificate template and add **Flexible date**.
+4. Open a certificate template and add **Flex Date for tool_certificate**.
 5. Select **Date item**, **Format mode** and, optionally, **Date language**.
 6. Save the element and preview the certificate.
 
@@ -64,7 +64,7 @@ The selection does not change the language of other elements.
 
 ## Privacy
 
-Flexible date stores formatting settings in the certificate template. It does not
+Flex Date for tool_certificate stores formatting settings in the certificate template. It does not
 store personal data of its own or send data to an external service. Certificate
 issues and recipient records are managed by Certificate manager.
 

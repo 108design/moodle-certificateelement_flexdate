@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3 — 2026-10-05
+
+- Rename the product to Flex Date for tool_certificate in both languages and documentation.
+- Show the product logo above the README title at 125 by 125 pixels.
+- Date formatting, certificate output and parent dependency are unchanged.
+
 ## 1.0.2 — 2026-10-05
 
 - Declare Certificate manager (`tool_certificate`) as a required parent plugin.

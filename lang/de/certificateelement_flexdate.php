@@ -44,5 +44,5 @@ $string['formatmode_help'] = 'Das Standardformat verwendet das ausgewählte Mood
 $string['formatmodecustom'] = 'Eigenes Format';
 $string['formatmodestandard'] = 'Standardformat';
 $string['issueddate'] = 'Ausstellungsdatum';
-$string['pluginname'] = 'Flexibles Datum';
-$string['privacy:metadata'] = 'Das Plugin „Flexibles Datum“ speichert keine personenbezogenen Daten.';
+$string['pluginname'] = 'Flex Date for tool_certificate';
+$string['privacy:metadata'] = 'Das Plugin „Flex Date for tool_certificate“ speichert keine personenbezogenen Daten.';
