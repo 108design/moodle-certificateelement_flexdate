@@ -28,7 +28,7 @@ language choice for each element.
    On Moodle installations with a split web directory, use
    `<moodle>/public/admin/tool/certificate/element/flexdate`.
 3. Visit **Site administration → Notifications** to complete installation.
-4. Open a certificate template and add **Flex Date for tool_certificate**.
+4. Open a certificate template and add **Flex Date**.
 5. Select **Date item**, **Format mode** and, optionally, **Date language**.
 6. Save the element and preview the certificate.
 

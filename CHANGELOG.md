@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.4 — 2026-10-05
+
+- Use the concise label **Flex Date** in the certificate element chooser.
+- Keep the descriptive product title **Flex Date for tool_certificate** in plugin information and public listings.
+- Date formatting and existing certificate elements are unchanged.
+
 ## 1.0.3 — 2026-10-05
 
 - Rename the product to Flex Date for tool_certificate in both languages and documentation.

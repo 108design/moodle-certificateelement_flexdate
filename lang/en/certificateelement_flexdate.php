@@ -46,5 +46,6 @@ $string['formatmode_help'] = 'Standard format uses the selected Moodle language 
 $string['formatmodecustom'] = 'Custom format';
 $string['formatmodestandard'] = 'Standard format';
 $string['issueddate'] = 'Issued date';
+$string['elementname'] = 'Flex Date';
 $string['pluginname'] = 'Flex Date for tool_certificate';
 $string['privacy:metadata'] = 'The Flex Date for tool_certificate plugin does not store any personal data.';

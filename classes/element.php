@@ -36,6 +36,15 @@ defined('MOODLE_INTERNAL') || die();
  */
 class element extends \tool_certificate\element {
 
+    /**
+     * Return the concise label used in the certificate element chooser.
+     *
+     * @return string
+     */
+    public static function get_element_type_name() {
+        return get_string('elementname', 'certificateelement_flexdate');
+    }
+
     /** Show the issue date. */
     public const DATE_ISSUE = -1;
 
