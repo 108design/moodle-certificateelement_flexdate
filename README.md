@@ -79,6 +79,8 @@ Fork maintainer: Andreas Giesen <andreas@108design.com> (108design).
 
 ## License
 
+**Available free of charge under the terms of the applicable license.**
+
 GNU General Public License version 3 or later. See [LICENSE](LICENSE) for the
 complete license text.
 
