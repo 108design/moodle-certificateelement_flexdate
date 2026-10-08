@@ -38,7 +38,7 @@ it does not require the Course certificate activity to edit a template.
 ## Compatibility
 
 Requires Moodle 4.5 or later and a compatible Certificate manager installation.
-The plugin targets Moodle 4.5–5.2 and supports issue and expiry dates.
+The plugin targets Moodle 4.5–5.3 and supports issue and expiry dates. On Moodle 5.3, use a Certificate manager release suitable for that Moodle version. Flex Date has been tested with Certificate manager 5.0.10 on Moodle 5.3; that parent release currently declares support only through Moodle 5.2, so this does not extend the parent's own support declaration.
 
 ## Date formats and language
 

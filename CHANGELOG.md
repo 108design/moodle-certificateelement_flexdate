@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.5 - 2026-10-08
+
+- Extend declared compatibility to Moodle 5.3 after native plugin checks.
+- Clarify the separately supported Certificate manager prerequisite on Moodle 5.3.
+
+
 ## 1.0.4 — 2026-10-05
 
 - Use the concise label **Flex Date** in the certificate element chooser.
