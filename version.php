@@ -30,8 +30,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'certificateelement_flexdate';
-$plugin->release = '1.4.0';
-$plugin->version = 2026110600;
+$plugin->release = '1.4.1';
+$plugin->version = 2026110601;
 $plugin->requires = 2024100700; // Moodle 4.5.
 $plugin->maturity = MATURITY_STABLE;
 $plugin->supported = [405, 503];
