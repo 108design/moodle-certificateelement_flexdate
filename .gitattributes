@@ -1,4 +1,4 @@
-# Generated for the exact approved normal installation profile.
+# Generated for the exact signed normal installation profile.
 * -export-ignore -export-subst
 "/.gitattributes" export-ignore -export-subst
 "/.github" export-ignore -export-subst
@@ -10,8 +10,12 @@
 "/README.md" -export-ignore -export-subst
 "/classes" -export-ignore -export-subst
 "/classes/element.php" -export-ignore -export-subst
+"/classes/local" -export-ignore -export-subst
+"/classes/local/update_guard.php" -export-ignore -export-subst
 "/classes/privacy" -export-ignore -export-subst
 "/classes/privacy/provider.php" -export-ignore -export-subst
+"/db" -export-ignore -export-subst
+"/db/hooks.php" -export-ignore -export-subst
 "/docs" export-ignore -export-subst
 "/docs/branding" export-ignore -export-subst
 "/docs/branding/logo.svg" export-ignore -export-subst
@@ -25,6 +29,10 @@
 "/pix" -export-ignore -export-subst
 "/pix/adminbrand.svg" -export-ignore -export-subst
 "/pix/icon.svg" -export-ignore -export-subst
+"/release-guard-policy.json" -export-ignore -export-subst
+"/release-manifest.json" -export-ignore -export-subst
+"/release-signature.txt" -export-ignore -export-subst
 "/tests" -export-ignore -export-subst
 "/tests/element_test.php" -export-ignore -export-subst
+"/update-guard.php" -export-ignore -export-subst
 "/version.php" -export-ignore -export-subst
