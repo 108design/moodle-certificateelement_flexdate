@@ -1,0 +1,17 @@
+name: Flex Date for tool_certificate
+summary: 108design's free GPL certificate element formats issue and expiry dates with standard or custom
+  formats and an optional language per element.
+category: Certificates
+description: |
+  Display a certificate's issue or expiry date using a standard Moodle date format or a custom strftime-style pattern. Choose an installed site language for month and weekday names, or follow the certificate's language. The choice applies to this date element without changing other template content.
+
+  Use Certificate manager's normal font, size, colour, alignment and positioning controls. Custom date formats are validated; dates use Moodle's timezone handling. The plugin stores template-formatting settings and sends no data to an external service.
+
+  Requires a compatible Certificate manager (tool_certificate) installation. The Course certificate activity is not required just to edit a template. On Moodle 5.3, check the parent's own declared compatibility; the element's integration checks do not extend upstream support.
+
+  Maintained by 108design and available free of charge under the GNU GPL v3 or later. Adapted from Certificate manager's GPL date element, with original authorship and licence notices retained.
+labels:
+- fully-free
+links:
+  docs: https://github.com/108design/moodle-certificateelement_flexdate/blob/main/README.md
+  issues: https://github.com/108design/moodle-certificateelement_flexdate/issues
