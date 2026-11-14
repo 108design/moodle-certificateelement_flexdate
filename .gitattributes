@@ -40,3 +40,4 @@
 "/tests/element_test.php" -export-ignore -export-subst
 "/update-guard.php" -export-ignore -export-subst
 "/version.php" -export-ignore -export-subst
+"/docs/branding/marketplace-logo.png" export-ignore -export-subst
