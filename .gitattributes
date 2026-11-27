@@ -31,6 +31,8 @@
 "/lang" -export-ignore -export-subst
 "/lang/de" -export-ignore -export-subst
 "/lang/de/certificateelement_flexdate.php" -export-ignore -export-subst
+"/lang/de_du" -export-ignore -export-subst
+"/lang/de_du/certificateelement_flexdate.php" -export-ignore -export-subst
 "/lang/en" -export-ignore -export-subst
 "/lang/en/certificateelement_flexdate.php" -export-ignore -export-subst
 "/pix" -export-ignore -export-subst
